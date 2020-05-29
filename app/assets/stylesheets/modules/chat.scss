@@ -8,7 +8,7 @@
       font-size: 30px;
       margin-top: 28px;
       float: left;
-      &__title {
+      .h2 {
         color: #333333;
         font-size: 20px;
         margin-top: 35px;
@@ -78,6 +78,7 @@
     &__message {
       border: none;
       float: left;
+      padding-left: 10px;
       height: 50px;
       width: calc(100% - 150px);
     }
